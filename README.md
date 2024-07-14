@@ -1,11 +1,12 @@
 # ![image](https://user-images.githubusercontent.com/30373916/190129327-ca33228f-9864-418a-a65c-8be4de9592bc.png)  FiatChamp 🚗
 
-Connect your FIAT, Jeep, Ram, Dodge, AlfaRomeo car 🚗 or truck 🚚 to Home Assistant. Needs a vehicle with enabled uconnect services and valid account.
+Connect your FIAT, Jeep, Ram, Dodge, Chrysler, AlfaRomeo car 🚗 or truck 🚚 to Home Assistant. Needs a vehicle with enabled uconnect services and valid account.
 
 - Fiat: Works ✅
 - Jeep: Works ✅
 - Ram: Experimental ⚠️ 
 - Dodge: Unknown ⛔
+- Chrysler: Unknown ⛔
 - AlfaRomeo: Unknown ⛔
 
 I have created this addon for my own car 🚗 (new Fiat Icon 500e) and its the only one i can test it with. 
@@ -26,12 +27,13 @@ It looks like there are different uconnect services. Make sure your car works wi
 - Jeep: https://myuconnect.jeep.com
 - Ram: https://connect.ramtrucks.com/
 - Dodge: https://connect.dodge.com
+- Chrysler: https://connect.chrysler.com
 - AlfaRomeo: https://myalfaconnect.alfaromeo.com/ 
 
 ## Features ✔️
 
 - Imports values like battery level 🔋, tyre pressure ‍💨, odometer ⏲ etc. into Home Assistant.
-- Multiple Brands: Fiat, Jeep, Ram, Dodge, AlfraRomeo
+- Multiple Brands: Fiat, Jeep, Ram, Dodge, Chrysler, AlfraRomeo
 - Supports multiple cars on the same account. 🚙🚗🚕
 - Location tracking.🌍
 - Home Assistant zones (home 🏠, work 🏦 etc.) support.
@@ -67,7 +69,7 @@ Short version:
 
 - Switch on "Advanced Mode" in your users profile. (if you haven't already)
 - Go to Settings -> Add-ons -> ADD-ON STORE
-- Top right three dots. Add repo. https://github.com/wubbl0rz/FiatChamp 
+- Top right three dots. Add repo. https://github.com/ralphlevan/FiatChamp 
 - Top right three dots. Check for updates.
 - Refresh Page. (F5)
 - Store should show this repo now and you can install the addon.
